@@ -1,0 +1,26 @@
+.sobre {
+
+    padding: 80px;
+
+    .titulo {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+
+    .texto {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 60px;
+        font-weight: 400;
+        color: #383131;
+    }
+
+    .img {
+        display: flex;
+        margin-top: 60px;
+        height: 120px;
+        justify-content: center;
+    }
+
+}

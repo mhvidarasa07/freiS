@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  background-color: #f5f6fa;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+
+    .resposta{
+        margin-left: 200px;
+        margin-top: -10px;
+    }
+
+    .secao {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        box-shadow: 0px 0px 10px #ADADAD40;
+        border-radius: 12px;
+        background-color: white;
+ 
+     
+
+        .h3 {
+            color: #383131;
+            font-weight: 700;
+            font-size: 18px;
+            margin-left: 25px;
+        }
+
+        .input {
+            border-radius: 12px;
+            border: #A5A5A5 solid 1px;
+            height: 41px;
+            width: 414px;
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 20px;
+        
+        }
+
+        .button {
+            background-color: #6278f7;
+            border-radius: 12px;
+            align-self: flex-end;
+            margin-right: 35px;
+            font-weight: 600;
+            font-size: 16px;
+            color: white;
+            border: none;
+            padding: 15px 60px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .bold {
+    font-weight: 700
+  }
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

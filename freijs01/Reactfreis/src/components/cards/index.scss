@@ -1,0 +1,32 @@
+.card {
+
+    background-color: white;
+    width: 215px;
+    border-radius: 12px;
+
+    .conteudo {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cor {
+        width: 60px;
+        height: 60px;
+        background-color: tomato;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .descricao{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,99 @@
+.inicio {
+
+    .treino {
+        color: #383131;
+        margin-left: 80px;
+        margin-top: 50px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .exercicios {
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        margin-right: 80px;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .amarelo {
+            .cor {
+                background-color: #FFCE37;
+            }
+        }
+
+        .verde {
+            .cor {
+                background-color: #B3FF37;
+            }
+        }
+
+        .azulclaro {
+            .cor {
+                background-color: #37FFF3;
+            }
+        }
+
+        .azul {
+            .cor {
+                background-color: #37B7FF;
+            }
+        }
+
+        .lilas {
+            .cor {
+                background-color: #CB37FF;
+            }
+        }
+
+        .laranja {
+            .cor {
+                background-color: #FF5B37;
+            }
+        }
+
+        .verdeagua {
+            .cor {
+                background-color: #37FFAB;
+            }
+        }
+
+        .preto {
+            .cor {
+                background-color: #151515;
+            }
+        }
+
+        .cinza {
+            .cor {
+                background-color: #D0D0D0;
+            }
+        }
+
+        .marrom {
+            .cor {
+                background-color: #B75333;
+            }
+        }
+
+        .roxo {
+            .cor {
+                background-color: #6533B7;
+            }
+        }
+
+        .amareloescuro {
+            .cor {
+                background-color: #fcbd00;
+            }
+        }
+
+    }
+
+
+}

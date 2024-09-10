@@ -1,0 +1,39 @@
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6278F7;
+    color: white;
+    height: 90px;
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 80px;
+        align-self: center;
+        font-size: 20px;
+    }
+
+    .logo img {
+        height: 60px;
+        width: 51.5px;
+        margin-top: 10px;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-self: center;
+        margin-right: 80px;
+    }
+
+    .link{
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+}
